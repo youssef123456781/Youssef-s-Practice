@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Blackjack Game</h1>
+    <h2>Dealers Cards:</h2>
+    <p id="dCards"></p>
+    <h2>Your cards:</h2>
+    <p id="yCards"></p>
+    <button id="drawcard" onclick="start()">Start Game</button>    
+    <button id="drawcard" onclick="extraCard()">Hit</button>
+    <button id="stand" onclick="stand()">Stand</button>    
+    <button id="restart" onclick="restart()">Restart Game</button>    
+    <p>Balance:</p> <p id="balance"></p>
+    <input type="number" id="betAmount">
+    <button id="bet" onclick="bet()">Bet</button>
+    <p>Amount Bet:</p>
+    <p id="risk"></p>
+    <p>Result:</p>
+    <p id="result"></p>
+
+<script src="index.js"></script>
+</body>
+</html>

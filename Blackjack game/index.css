@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:black ;
+    color: white;
+}
+button{
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    background-color: coral;
+    font-weight: bold;
+    border-radius:5px;
+    font-size: 30px;
+    border: none;
+    width: 180px;
+}
+h1 {
+    font-size: 60px;
+}
+#drawcard {
+    background-color: rgb(0, 255, 4);
+    
+}
+#bet {
+    background-color: brown;
+}
