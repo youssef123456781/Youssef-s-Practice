@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+input{
+    width: 72%;
+    float: left;
+    padding: 9px;
+    margin-right: 30px;
+}
+
+#addBtn{
+    width: 9%;
+    float: right; 
+    float: inline-start;
+    padding: 6.6px;
+    font-size: 18px;
+    background-color: rgb(117, 255, 117);
+}
+
+#deleteAllBtn{
+    width: 15%;
+    float: right;
+    padding: 6.6px;
+    font-size: 18px;
+    background-color: rgb(255, 120, 120);
+}
+ul{
+    float: left;
+    text-align: left;
+}
+h2{
+    position: fixed;
+    top: 0px;
+    right: 15px;
+}
+#saved{
+    position: fixed;
+    right: 60px;
+}
+.checkbox{
+    position: fixed;
+    right: 930px;
+}
+
+.container{
+    position: relative;
+    top:3px;
+    padding: 3px;
+}
+#checked{
+position: fixed;
+top: 0px;
+float: left;
+}
+#checkedAmount{
+position: fixed;
+top: 0px;
+left: 105px;
+float: left;
+}
+#unchecked{
+position: fixed;
+top: 0px;
+left: 135px;
+float: left;
+}
+#uncheckedAmount{
+position: fixed;
+top: 0px;
+left: 255px;
+float: left;
+}
+.deleteTask{
+    position:fixed;
+    right: 15px;
+    margin: 3px;
+    background-color: rgb(255, 120, 120);
+}
