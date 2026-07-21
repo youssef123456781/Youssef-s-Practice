@@ -18,6 +18,7 @@ const linkBtn = document.getElementById("linkBtn")
 onValue(referenceInDB, function(snapshot) {
     if (snapshot.exists()) {
         const items = Object.values(snapshot.val())
+        console.log(items)
         items.sort((a, b) => a.timestamp - b.timestamp)
         let listItems = ""
         for(let i = 0; i < items.length; i++){
